@@ -7,22 +7,6 @@ public class Reference
     private int _verse;
     private int _endVerse;
 
-    private  string GetBook()
-    {
-        return _book;
-    }
-    private  int GetChapter()
-    {
-        return _chapter;
-    }
-    private  int GetVerse()
-    {
-        return _verse;
-    }
-    private  int GetEndVerse()
-    {
-        return _endVerse;
-    }
     private string _text;
 
     public string GetDisplayText(string scriptureText)

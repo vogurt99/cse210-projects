@@ -5,6 +5,8 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.Clear();
+
         Reference scriptureReference = new Reference("John", 3, 16, 16, "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.");
 
         Scripture scripture = new Scripture(scriptureReference, "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.");

@@ -6,7 +6,6 @@ public class Scripture
     private Reference _reference;
     private List<Word> _words = new List<Word>();
     private string _text;
-    private bool _completelyHidden;
 
     public Scripture(Reference reference, string text)
     {
@@ -18,8 +17,6 @@ public class Scripture
         {
             _words.Add(new Word(word));
         }
-        
-        _completelyHidden = false;
     }
     public Reference GetReference()
     {
