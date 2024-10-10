@@ -20,19 +20,6 @@ public class Reference
             return $"{_book} {_chapter}:{_verse}";
         }
     }
-    public void SetDisplayText(string scriptureText)
-    {
-        string reference;
-        
-        if (_endVerse > _verse)
-        {
-            reference = $"{_book} {_chapter}:{_verse}-{_endVerse}";
-        }
-        else
-        {
-            reference = $"{_book} {_chapter}:{_verse}";
-        }
-    }
     public Reference(string book, int chapter, int verse, int endVerse, string text)
     {
         _book = book;

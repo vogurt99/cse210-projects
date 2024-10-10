@@ -14,17 +14,9 @@ public class Word
     {
         _isHidden = true;
     }
-    public void Show()
-    {
-        _isHidden = false;
-    }
     public string GetDisplayText()
     {
         return _text;
-    }
-    public void SetDisplayText(string text)
-    {
-        _text = text;
     }
     public bool IsHidden()
     {
